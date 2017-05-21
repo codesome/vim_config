@@ -13,7 +13,15 @@ set mouse=a
 
 ino " ""<left>
 ino ' ''<left>
+ino "" ""
+ino '' ''
 ino ( ()<left>
 ino [ []<left>
 ino { {}<left>
+ino () ()
+ino [] []
+ino {} {}
 ino {<CR> {<CR>}<ESC>O
+
+let g:indentLine_char = '|'
+let g:indentLine_color_term = 236
